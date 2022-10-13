@@ -23,8 +23,9 @@ function draw () {
 
     if (py > 400 || py < 0){
         vy = -vy
-    } 
+    }
+    fill(255, 0, 0)
 
-        FileList(0, 255, 255)
+
     ellipse(px, py, radius, radius);
 }
